@@ -1,7 +1,7 @@
-import Die from "./components/Die"
-import React from "react"
+import {Die} from "./components/Die"
+import {React} from "react"
 import {nanoid} from "nanoid"
-import Confetti from 'react-confetti'
+import {Confetti} from 'react-confetti'
 export default function App(params) {
       const [dice,setDice]=React.useState(allNewDice())
       const [tenzies, setTenzies] = React.useState(false)
